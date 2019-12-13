@@ -11,7 +11,10 @@ I wanted to try and see if I could build an URL shortener in Go.
 1. Download the source code and install it using the `go install` command.
 2. Use `database.sql` to create the `tiny_urls` table.
 3. Create a config file in `/path/to/url-shortener/` named `config.(json|yaml|toml)`. Use `config-example.json` as a example.
-
+```
+docker-compose build
+docker-compose up
+```
 
 ## To-do
 * Add tests

@@ -1,0 +1,24 @@
+version: '3'
+services:
+  url-shortner:
+    build:
+      context: ./url-shortner
+    depends_on:
+      - sqldb
+    ports:
+      - 8080:8080
+    networks:
+      - shorturl
+  
+  sqldb:
+    build:
+      context: ./database
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: "%"
+      TZ: 'Europe/Warsaw'
+    networks:
+      - shorturl
+
+networks:
+  shorturl:

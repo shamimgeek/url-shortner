@@ -1,8 +1,0 @@
-{
-	"mysql_host": "localhost",
-	"mysql_database": "tinyurl",
-	"mysql_user": "root",
-	"mysql_password": "password",
-	"short_url": "http://127.0.0.1",
-	"default_url": "http://long-domain-name.ext"
-}

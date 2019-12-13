@@ -15,7 +15,6 @@ I wanted to try and see if I could build an URL shortener in Go.
 
 ## To-do
 * Add tests
-* Add json request and response. currently only plain txt is requested and serverd.
-* Build Docker image for kuberntes. 
+* * Build Docker image for kuberntes. 
 * Add deployment
 
